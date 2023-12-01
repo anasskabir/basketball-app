@@ -35,7 +35,8 @@ const searchStorage = searchStore()
 
 onMounted(async () => {
     try {
-        const { data } = await http.get('https://v2.nba.api-sports.io/teams');
+        // const { data } = await http.get('https://v2.nba.api-sports.io/teams');
+        const { data } = await http.get('https://api-nba-v1.p.rapidapi.com/teams');
         teams.value = data.response
         backupTeams.value = data.response
     } catch (error) {
