@@ -1,0 +1,33 @@
+anasskabir@Anasss-MacBook-Air src % cd ..
+anasskabir@Anasss-MacBook-Air basketball-app % npm run serve
+npm ERR! Missing script: "serve"
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /Users/anasskabir/.npm/_logs/2023-12-01T05_02_17_315Z-debug-0.log
+anasskabir@Anasss-MacBook-Air basketball-app % npm run
+Scripts available in basketball-app@0.0.0 via `npm run-script`:
+  dev
+    vite
+  build
+    vite build
+  preview
+    vite preview
+
+anasskabir@Anasss-MacBook-Air basketball-app % npm run preview
+
+> basketball-app@0.0.0 preview
+> vite preview
+
+sh: /Users/anasskabir/Downloads/basketball-app/node_modules/.bin/vite: Permission denied
+anasskabir@Anasss-MacBook-Air basketball-app % npm run dev
+
+> basketball-app@0.0.0 dev
+> vite
+
+sh: /Users/anasskabir/Downloads/basketball-app/node_modules/.bin/vite: Permission denied
+anasskabir@Anasss-MacBook-Air basketball-app % ls
+README.md               package-lock.json       public                  tailwind.config.js
+index.html              package.json            readme.txt              vite.config.js
+node_modules            postcss.config.js       src
